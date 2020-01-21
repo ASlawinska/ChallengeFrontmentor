@@ -63,6 +63,12 @@ footer{
    border-top: 1px solid hsl(273, 4%, 51%);
    width: 90%;
  }
+/**********MEDIA QUERIES****/
+ @media screen and (max-device-width: 400px){
+   .image-intro{
+     url
+   }
+ }
 
 /*
   - Mobile: 375px
@@ -96,11 +102,3 @@ footer{
 
 - Family: [Karla](https://fonts.google.com/specimen/Karla)
 - Weights: 400, 700
-
-## Icons
-
-You can use either use the social icons provided or load in a font icon library. Some library suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)*/
