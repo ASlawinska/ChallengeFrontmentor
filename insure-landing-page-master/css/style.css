@@ -1,7 +1,8 @@
 body{
   background-color: white;
   font-size: 16px;
-  font-family: 'Karla', sans-serif
+  font-family: 'Karla', sans-serif;
+  text-align: center; /*mobile*/
 }
 h1{
   font-family: 'DM Serif Display', serif;
@@ -10,9 +11,13 @@ h1{
   font-size: 200%;
 }
 h2{
+font-family: 'DM Serif Display', serif;
 color: hsl(270, 9%, 17%);
+font-size: 150%;
+width: 400;
 }
 h3{
+  font-family: 'DM Serif Display', serif;
   color: hsl(273, 4%, 51%);
 }
 p{
@@ -20,10 +25,11 @@ p{
 width: 400;
   }
 header{
-
+text-align: right;
   }
 a{
   text-decoration: none;
+  color: hsl(270, 9%, 17%);
 
 }
 footer{
@@ -41,6 +47,18 @@ footer{
  .bottom-cointainer {
    background-color: hsl(256, 26%, 20%);
  }
+ .h1-violet{
+   color:hsl(270, 9%, 17%);
+ }
+ .hr-screen{
+   border-top: 1px solid hsl(273, 4%, 51%);
+   width: 50%;
+ }
+ .hr-middle-cointainer{
+   border-top: 1px solid hsl(273, 4%, 51%);
+   width: 50%;
+ }
+
  .hr-footer{
    border-top: 1px solid hsl(273, 4%, 51%);
    width: 90%;
