@@ -92,7 +92,9 @@ footer{
 
  }
 /**********MEDIA QUERIES****/
- @media screen and (max-device-width: 400px){
+ @media screen and (min-width: 600px){
+   
+ }
 
  }
 
