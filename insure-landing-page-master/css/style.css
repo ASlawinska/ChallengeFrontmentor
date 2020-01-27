@@ -1,138 +1,198 @@
-body{
+body {
   background-color: white;
   font-size: 16px;
   font-family: 'Karla', sans-serif;
-  text-align: center; /*mobile*/
+  text-align: center;
+  /*mobile*/
 }
-h1{
+
+h1 {
   font-family: 'DM Serif Display', serif;
   width: 700;
   color: white;
   font-size: 200%;
 }
-h2{
-font-family: 'DM Serif Display', serif;
-color: hsl(270, 9%, 17%);
-font-size: 150%;
-width: 400;
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+  color: hsl(270, 9%, 17%);
+  font-size: 150%;
+  width: 400;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-h3{
+
+h3 {
   font-family: 'DM Serif Display', serif;
   color: hsl(273, 4%, 51%);
 }
-p{
+
+p {
   color: hsl(273, 4%, 51%);
-width: 400;
-line-height: 2;
-z-index: 1;
-margin: 5%;
-  }
-header{
-text-align: right;
-width: 100%;
-margin: 50px auto 50px auto;
-  }
-a{
+  width: 400;
+  line-height: 2;
+  z-index: 1;
+  margin: 5%;
+}
+
+header {
+  text-align: right;
+  width: 100%;
+  margin: 50px auto 50px auto;
+}
+
+a {
   text-decoration: none;
   color: hsl(270, 9%, 17%);
-
 }
-footer{
+span{
+display: block;
+}
+
+footer {
   background-color: hsl(0, 0%, 98%);
 }
+
 /************************class selectror****************************/
-.page{
+.page {
   display: flex;
   flex-direction: column;
 }
-.top-cointainer{
+
+.top-cointainer {
   position: relative;
   width: 100%;
   background-color: hsl(256, 26%, 20%);
   color: hsl(216, 30%, 68%);
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
-.middle-cointainer{
+
+.middle-cointainer {
   color: hsl(270, 9%, 17%);
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
 }
- .bottom-cointainer {
+
+.bottom-cointainer {
+  position: relative;
   background-color: hsl(256, 26%, 20%);
   width: 90%;
- }
- .h1-violet{
-   color:hsl(270, 9%, 17%);
- }
- .hr-screen{
-   display: none;
-/*   border-top: 1px solid hsl(273, 4%, 51%);
-   width: 50%;*/
- }
- .hr-middle-cointainer{
-   border-top: 1px solid hsl(273, 4%, 51%);
-   width: 50%;
- }
-
- .hr-footer{
-   border-top: 1px solid hsl(273, 4%, 51%);
-   width: 90%;
- }
- .btn {
-	box-shadow: 0px 0px 0px 0px white;
-	background-color:transparent;
-	border:1px solid white;
-	display:inline-block;
-	cursor:pointer;
-	color:white;
-	font-family: 'Karla', sans-serif;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px hsl(0, 0%, 98%);
+  height: 330px;
+  margin: 0 auto 100px auto;
 }
+
+.h1-violet {
+  color: hsl(270, 9%, 17%);
+  padding-bottom: 30px;
+}
+
+.hr-screen {
+  display: none;
+  /*   border-top: 1px solid hsl(273, 4%, 51%);
+   width: 50%;*/
+}
+
+.hr-middle-cointainer {
+  border-top: 1px solid hsl(273, 4%, 51%);
+  width: 30%;
+  padding: 20px;
+}
+
+.hr-footer {
+  border-top: 1px solid hsl(273, 4%, 51%);
+  width: 90%;
+}
+
+.btn {
+  box-shadow: 0px 0px 0px 0px white;
+  background-color: transparent;
+  border: 1px solid white;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px hsl(0, 0%, 98%);
+}
+
 .btn:hover {
-	background-color: white;
+  background-color: white;
   color: hsl(256, 26%, 20%);
 }
-.btn:active {
-	position:relative;
-	top:1px;
-}
- .logo{
-   position: absolute;
-   top: 20px;
-   bottom: 20px;
-   left: 10px;
 
- }
- .image-intro{
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 10px;
+}
+
+.image-intro {
   position: relative;
   display: block;
   margin: auto;
   width: 100%;
- }
- .bg-pattern-intro-left{
+}
+
+.bg-pattern-intro-left {
   position: absolute;
   display: block;
   margin-left: 0%;
   z-index: 0;
- }
- .bg-pattern-intro-right{
+}
+
+.bg-pattern-intro-right {
   position: absolute;
-right: 0;
-   margin-top: -50%;
-   z-index: 0;
- }
- .text-intro{
+  right: 0;
+  margin-top: -50%;
+  z-index: 0;
+}
+
+.text-intro {
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  z-index: 1;
+}
+.bg-pattern-how-we-work{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.text-how-we-work{
 position: relative;
-   padding-top: 75px;
-   padding-bottom: 75px;
-   z-index: 1;
- }
+padding-top: 80px;
+padding-bottom: 25px;
+z-index: 1;
+}
+.footer-cointainer{
+  position: relative;
+  width: 100%;
+}
+.logo-footer{
+  position: absolute;
+  top: auto;
+  padding-top: 10%;
+  margin: auto;
+}
+.bg-pattern-footer{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 /**********MEDIA QUERIES****/
- @media screen and (min-width: 600px){
-
- }
+@media screen and (min-width: 600px) {}
 
 /*
   - Mobile: 375px
