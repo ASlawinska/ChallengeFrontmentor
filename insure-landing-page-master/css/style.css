@@ -25,7 +25,9 @@ h2 {
 h3 {
   font-family: 'DM Serif Display', serif;
   color: hsl(273, 4%, 51%);
-  padding: 10% auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
 }
 
 p {
@@ -46,6 +48,8 @@ a {
   text-decoration: none;
   color: hsl(270, 9%, 17%);
   line-height: 2;
+  text-transform: uppercase;
+   font-weight: bold;
 }
 span{
 display: block;
@@ -200,6 +204,7 @@ z-index: 1;
   margin: auto;
   display: inline-block;
 }
+
 
 
 /**********MEDIA QUERIES****/
