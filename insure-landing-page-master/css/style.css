@@ -25,6 +25,7 @@ h2 {
 h3 {
   font-family: 'DM Serif Display', serif;
   color: hsl(273, 4%, 51%);
+  padding: 10% auto;
 }
 
 p {
@@ -44,6 +45,7 @@ header {
 a {
   text-decoration: none;
   color: hsl(270, 9%, 17%);
+  line-height: 2;
 }
 span{
 display: block;
@@ -100,8 +102,11 @@ footer {
 }
 
 .hr-footer {
+  position: relative;
   border-top: 1px solid hsl(273, 4%, 51%);
-  width: 90%;
+  width: 80%;
+  margin-top: 10%;
+  padding-top: 10%;
 }
 
 .btn {
@@ -181,13 +186,19 @@ z-index: 1;
 .logo-footer{
   position: absolute;
   top: auto;
-  padding-top: 10%;
+  padding-top: 20%;
   margin: auto;
 }
 .bg-pattern-footer{
   position: absolute;
   top: 0;
   left: 0;
+}
+.icon{
+  padding-top: 35%;
+  padding-bottom: 20%
+  margin: auto;
+  display: inline-block;
 }
 
 
