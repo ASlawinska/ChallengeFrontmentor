@@ -144,6 +144,9 @@ footer {
   left: 10px;
 }
 
+.image-intro img{
+  width:100%;
+}
 .image-intro {
   position: relative;
   display: block;
@@ -213,6 +216,9 @@ z-index: 1;
   body{
     text-align: left;
   }
+  .top-cointainer{
+    margin-bottom: 20%;
+  }
 
   .middle-cointainer{
     width: 80%;
@@ -223,8 +229,11 @@ z-index: 1;
 }
 .image-intro {
 float: right;
-width: auto;
-height: 30%; /*nie działa opcja regulacji rozmiaru tego rysunku, ani w mobile, ani screen, poszukaj!! */
+width: 40%;
+height: auto;
+margin-right: 15%;
+padding-left: 2%;
+padding-top: 5%;
 z-index: 0;
 }
 .text-intro
