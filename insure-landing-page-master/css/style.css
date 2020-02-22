@@ -234,6 +234,11 @@ z-index: 1;
     padding-bottom: 10px;
     overflow: auto;
   }
+  .bottom-cointainer {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto 100px auto;
+  }
   .btn_nav {
     box-shadow: 0px 0px 0px 0px hsl(256, 26%, 20%);
     background-color: transparent;
@@ -318,8 +323,7 @@ z-index: 0;
 }
 .text-how-we-work{
 position: relative;
-padding-top: 50px;
-padding-bottom: 25px;
+padding-top: 80px;
 padding-left: 10%;
 z-index: 1;
 }
@@ -329,3 +333,37 @@ z-index: 1;
   margin-right: 10%;
   margin-top: -100px;
 }
+
+.bg-pattern-how-we-work{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.bg-pattern-footer{
+  float: left;
+  position: relative;
+}
+.icon{
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 30px auto 0 10%;
+  display: inline-block;
+}
+.footer{
+  width: 80%;
+  overflow: auto;
+}
+.footerI, .footerII, .footerIII, .footerIV{
+  float: left;
+  margin-left: 10%;
+  width: 15%;}
+  .footerI a:hover, .footerII a:hover, .footerIII a:hover, .footerIV a:hover {
+    text-decoration:underline;
+    cursor: auto;
+  } 
+  .attribution{
+    text-align: center;
+  }
