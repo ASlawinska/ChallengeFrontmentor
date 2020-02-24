@@ -109,8 +109,8 @@ footer {
   position: relative;
   border-top: 1px solid hsl(273, 4%, 51%);
   width: 80%;
-  margin-top: 10%;
-  padding-top: 10%;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .btn {
@@ -281,7 +281,7 @@ position: relative;
 float: right;
 width: 30%;
 height: auto;
-margin-right: 15%;
+margin-right: 10%;
 top: 100px;
 padding-left: 2%;
 padding-top: 20px;
@@ -318,11 +318,13 @@ z-index: 0;
 }
 .columnI, .columnII, .columnIII{
   float: left;
-  margin: 15px;
-  width: 30%;
+  padding-top: 15px;
+  padding-left: 3%;
+  width: 30.3333%;
 }
 .text-how-we-work{
 position: relative;
+width: 50%;
 padding-top: 80px;
 padding-left: 10%;
 z-index: 1;
@@ -340,30 +342,53 @@ z-index: 1;
   right: 0;
   z-index: 0;
 }
-
+.logo-footer{
+  position: absolute;
+  top: auto;
+  padding-top: 50px;
+  margin-left: 10%;
+}
 .bg-pattern-footer{
   float: left;
   position: relative;
+  z-index: 0;
+}
+.i{
+  float: right;
+/*  padding-top: 20px;*/
+  padding-right: 10%;
+  z-index: 1;
 }
 .icon{
-  float: right;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 30px auto 0 10%;
-  display: inline-block;
+  padding-left: 10px;
+}
+.icon:hover{
+  filter: brightness(50%);
+  cursor: auto;
+}
+
+.hr-footer {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 120px;
+  z-index: 1;
 }
 .footer{
   width: 80%;
+  margin-left: 10%;
   overflow: auto;
+  position: absolute;
+  margin-top: 150px;
 }
 .footerI, .footerII, .footerIII, .footerIV{
   float: left;
-  margin-left: 10%;
-  width: 15%;}
+  width: 25%;}
   .footerI a:hover, .footerII a:hover, .footerIII a:hover, .footerIV a:hover {
     text-decoration:underline;
     cursor: auto;
-  } 
+  }
   .attribution{
+    position: relative;
     text-align: center;
+    padding-top: 20px;
   }
