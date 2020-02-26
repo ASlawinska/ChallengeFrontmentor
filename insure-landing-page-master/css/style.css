@@ -194,13 +194,21 @@ z-index: 1;
   position: relative;
   width: 100%;
 }
+.logo-footer img{
+  width: 100%;
+}
 .logo-footer{
   position: absolute;
-  top: auto;
-  padding-top: 20%;
+  padding-top: 50px;
   margin: auto;
+  text-align: center;
+  z-index: 10;
+}
+.bg-pattern-footer img{
+  width: 100%;
 }
 .bg-pattern-footer{
+float: left;
   position: absolute;
   top: 0;
   left: 0;
