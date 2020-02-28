@@ -157,19 +157,29 @@ footer {
   margin: auto;
   width: 100%;
 }
-
+.bg-pattern-intro-left img{
+  width: 45%;
+  float: left;
+}
 .bg-pattern-intro-left {
   position: absolute;
   display: block;
   margin-left: 0%;
+  width: 100%;
   z-index: 0;
 }
-
+.bg-pattern-intro-right img{
+  width: 30%;
+  position: relative;
+  float: right;
+}
 .bg-pattern-intro-right {
   position: absolute;
+  float: right;
   right: 0;
-  margin-top: -50%;
-  z-index: 0;
+  margin-top: 350px;
+  width: 100%;
+  z-index: 10;
 }
 
 .text-intro {
@@ -178,10 +188,17 @@ footer {
   padding-bottom: 75px;
   z-index: 1;
 }
+.bg-pattern-how-we-work img{
+  max-width: 55%;
+  height: 100%;
+  position: relative;
+  float: right;
+}
 .bg-pattern-how-we-work{
   position: absolute;
   right: 0;
   top: 0;
+  width: 100%;
   z-index: 0;
 }
 .text-how-we-work{
@@ -218,6 +235,7 @@ width: 100%;
   display: block;
   width: 100%;
   padding-top: 20px;
+  z-index: 10;
 }
 .icon{
   padding-top: 20px;
@@ -229,7 +247,7 @@ width: 100%;
 
 
 /**********MEDIA QUERIES****/
-@media screen and (min-width: 650px)
+@media screen and (min-width: 699px)
 {
   body{
     text-align: left;
@@ -315,7 +333,7 @@ width: 100%;
 .image-intro {
 position: relative;
 float: right;
-width: 30%;
+width: 40%;
 height: auto;
 margin-right: 10%;
 top: 100px;
@@ -324,30 +342,24 @@ padding-top: 20px;
 z-index: 0;
 }
 
-.text-intro
-{
-  width: 50%;
+.text-intro {
+  width: 40%;
   text-align: left;
   margin-left: 10%;
+  margin-top: 0;
+  padding-top: 5px;
 }
 .bg-pattern-intro-left img{
-  width:100%;
+  width: 15%;
 }
 .bg-pattern-intro-left {
-  position: absolute;
-  margin-left: 0%;
-  margin-top: 350px;
-  z-index: 0;
+  margin-top: 400px;
 }
 .bg-pattern-intro-right img{
-  width:100%;
+  width:30%;
 }
 .bg-pattern-intro-right {
-  position: absolute;
-  float: right;
-  margin-top: 0;
-  padding-top: 0;
-  z-index: 1;
+    margin-top: 0;
 }
 .hr-middle-cointainer{
   display: inline-block;
@@ -359,12 +371,19 @@ z-index: 0;
   padding-left: 3%;
   width: 30.3333%;
 }
+.text-how-we-work h1{
+  position: relative;
+  position: absolute;
+  width: 50%;
+
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .text-how-we-work{
-position: relative;
-width: 50%;
-padding-top: 80px;
+width: 100%;
 padding-left: 10%;
-z-index: 1;
+vertical-align: baseline;
+display: table-cell;
 }
 .BC{
   float: right;
@@ -372,17 +391,18 @@ z-index: 1;
   margin-right: 10%;
   margin-top: -100px;
 }
-
-.bg-pattern-how-we-work{
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-}
+.bg-pattern-how-we-work img{
+  max-width: 50%;
+  height: 100%
+  }
+  .bg-pattern-how-we-work{
+    width: 100%;
+    }
 .footer-cointainer{
   clear: both;
   position: relative;
-  background-color: hsl
+  padding-bottom: 200px;
+  overflow:visible;
 }
 .logo-footer{
   position: absolute;
@@ -392,17 +412,13 @@ z-index: 1;
   z-index: 1;
   width: auto;
 }
-.bg-pattern-footer{
-  float: left;
-  width: auto;
-  position: relative;
-  z-index: 0;
+.bg-pattern-footer img{
+  width: 40%;
 }
+
 .i{
   float: right;
-  position: relative;
   width: auto;
-  z-index: 10;
   margin-right: 10%;
   display: inline-block;
 }
