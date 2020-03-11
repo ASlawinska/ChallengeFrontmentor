@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   font-family: 'Karla', sans-serif;
   text-align: center;
-  /*mobile*/
 }
 
 h1 {
@@ -37,7 +36,8 @@ p {
   z-index: 1;
   margin: 5%;
 }
-nav{
+
+nav {
   display: none;
 }
 
@@ -51,10 +51,11 @@ a {
   color: hsl(270, 9%, 17%);
   line-height: 2;
   text-transform: uppercase;
-   font-weight: bold;
+  font-weight: bold;
 }
-span{
-display: block;
+
+span {
+  display: block;
 }
 
 footer {
@@ -91,16 +92,18 @@ footer {
   height: 330px;
   margin: 0 auto 100px auto;
 }
-.btn_nav{
+
+.btn_nav {
   display: none;
 }
+
 /*Mobile Menu*/
 /* Dropdown Button */
 .dropbtn {
   background-color: white;
   color: white;
   padding: 16px;
-    border: none;
+  border: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -116,7 +119,7 @@ footer {
   position: absolute;
   background-color: hsl(256, 26%, 20%);
   width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -130,18 +133,24 @@ footer {
   margin-left: 10%;
   margin-right: 10%;
 }
-.dropdown-content a:active
-{border: solid;
-border-color: white;}
+
+.dropdown-content a:active {
+  border: solid;
+  border-color: white;
+}
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-border: solid;
-border-color: white;}
+  border: solid;
+  border-color: white;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-.bg-pattern-mobile-nav img{
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.bg-pattern-mobile-nav img {
   width: 100%;
 }
 
@@ -194,31 +203,34 @@ border-color: white;}
   top: 1px;
 }
 
-.logo img{
+.logo img {
   position: relative;
 }
 
-.logo{
+.logo {
   position: absolute;
   float: left;
-display: table-cell;
+  display: table-cell;
   vertical-align: middle;
   left: 10%;
 }
 
-.image-intro img{
-  width:100%;
+.image-intro img {
+  width: 100%;
 }
+
 .image-intro {
   position: relative;
   display: block;
   margin: auto;
   width: 100%;
 }
-.bg-pattern-intro-left img{
+
+.bg-pattern-intro-left img {
   width: 45%;
   float: left;
 }
+
 .bg-pattern-intro-left {
   position: absolute;
   display: block;
@@ -226,11 +238,13 @@ display: table-cell;
   width: 100%;
   z-index: 0;
 }
-.bg-pattern-intro-right img{
+
+.bg-pattern-intro-right img {
   width: 30%;
   position: relative;
   float: right;
 }
+
 .bg-pattern-intro-right {
   position: absolute;
   float: right;
@@ -246,30 +260,35 @@ display: table-cell;
   padding-bottom: 75px;
   z-index: 1;
 }
-.bg-pattern-how-we-work img{
+
+.bg-pattern-how-we-work img {
   max-width: 55%;
   height: 100%;
   position: relative;
   float: right;
 }
-.bg-pattern-how-we-work{
+
+.bg-pattern-how-we-work {
   position: absolute;
   right: 0;
   top: 0;
   width: 100%;
   z-index: 0;
 }
-.text-how-we-work{
-position: relative;
-padding-top: 80px;
-padding-bottom: 25px;
-z-index: 1;
+
+.text-how-we-work {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 25px;
+  z-index: 1;
 }
-.footer-cointainer{
+
+.footer-cointainer {
   position: relative;
   width: 100%;
 }
-.logo-footer{
+
+.logo-footer {
   width: auto;
   position: relative;
   display: block;
@@ -277,81 +296,93 @@ z-index: 1;
   margin: 0 auto;
   padding-top: 50px;
   z-index: 10;
-    }
-.bg-pattern-footer img{
+}
+
+.bg-pattern-footer img {
   width: 100%;
 }
-.bg-pattern-footer{
-float: left;
-width: 100%;
+
+.bg-pattern-footer {
+  float: left;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
-.i{
+
+.i {
   position: relative;
   display: block;
   width: 100%;
   padding-top: 20px;
   z-index: 10;
 }
-.icon{
+
+.icon {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 10px;
   display: inline-block;
 }
 
-
-
 /**********MEDIA QUERIES****/
-@media screen and (min-width: 699px)
-{
-  body{
+@media screen and (min-width: 699px) {
+  body {
     text-align: left;
+    font-size: 16px;
   }
-  p{
+
+  p {
     margin: 1% auto;
   }
+
   h1 {
     font-size: 300%;
   }
-  span{
-    display:inline;
+
+  span {
+    display: inline;
   }
-  nav{
+
+  nav {
     display: inline-block;
     float: right;
     margin-right: 10%;
     padding-top: 50px;
     padding-bottom: 20px;
   }
-  footer{
+
+  footer {
     padding-bottom: 150px;
   }
-  .dropdown{
-  display: none;
+
+  .dropdown {
+    display: none;
   }
-  .header{
+
+  .header {
     width: 100%;
     height: 100px;
   }
-  .top-cointainer{
+
+  .top-cointainer {
     position: relative;
     margin-bottom: 15%;
   }
 
-  .middle-cointainer{
+  .middle-cointainer {
     width: 80%;
     padding-bottom: 10px;
     overflow: auto;
   }
+
   .bottom-cointainer {
     clear: both;
     width: 80%;
     height: 250px;
     margin: 0 auto 100px auto;
   }
+
   .btn_nav {
     box-shadow: 0px 0px 0px 0px hsl(256, 26%, 20%);
     background-color: transparent;
@@ -376,140 +407,162 @@ width: 100%;
   }
 
   .logo {
-  position: absolute;
-  padding-top: 50px;
+    position: absolute;
+    padding-top: 50px;
     left: 10%;
   }
+
   .hr-screen {
     position: relative;
-  display: inline-block;
-  margin-top: 100px;
-  margin-left: 10%;
-   border-top: 1px solid hsl(273, 4%, 51%);
-   width: 7%;
-}
-.image-intro {
-position: relative;
-float: right;
-width: 40%;
-height: auto;
-margin-right: 10%;
-top: 100px;
-padding-left: 2%;
-padding-top: 20px;
-z-index: 0;
-}
-
-.text-intro {
-  width: 40%;
-  text-align: left;
-  margin-left: 10%;
-  margin-top: 0;
-  padding-top: 5px;
-}
-.bg-pattern-intro-left img{
-  width: 15%;
-}
-.bg-pattern-intro-left {
-  margin-top: 400px;
-}
-.bg-pattern-intro-right img{
-  width:30%;
-}
-.bg-pattern-intro-right {
-    margin-top: 0;
-}
-.hr-middle-cointainer{
-  display: inline-block;
-  width: 5%;
-}
-.columnI, .columnII, .columnIII{
-  float: left;
-  padding-top: 15px;
-  padding-left: 3%;
-  width: 30.3333%;
-}
-.text-how-we-work h1{
-  position: relative;
-  position: absolute;
-  width: 50%;
-
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.text-how-we-work{
-width: 100%;
-padding-left: 10%;
-vertical-align: baseline;
-display: table-cell;
-}
-.BC{
-  float: right;
-  position: relative;
-  margin-right: 10%;
-  margin-top: -100px;
-}
-.bg-pattern-how-we-work img{
-  max-width: 50%;
-  height: 100%
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-top: 1px solid hsl(273, 4%, 51%);
+    width: 7%;
   }
-  .bg-pattern-how-we-work{
-    width: 100%;
-    }
-.footer-cointainer{
-  clear: both;
-  position: relative;
-  padding-bottom: 200px;
-  overflow:visible;
-}
-.logo-footer{
-  position: absolute;
-  top: auto;
-  padding-top: 50px;
-  margin-left: 10%;
-  z-index: 1;
-  width: auto;
-}
-.bg-pattern-footer img{
-  width: 40%;
-}
 
-.i{
-  float: right;
-  width: auto;
-  margin-right: 10%;
-  display: inline-block;
-}
-.icon{
-  padding-left: 10px;
-}
-.icon:hover{
-  filter: brightness(50%);
-  cursor: auto;
-}
+  .image-intro {
+    position: relative;
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-right: 10%;
+    top: 100px;
+    padding-left: 2%;
+    padding-top: 20px;
+    z-index: 0;
+  }
 
-.hr-footer {
-  position: absolute;
-  margin-left: 10%;
-  margin-top: 120px;
-  z-index: 1;
-}
-.footer{
-  width: 80%;
-  margin-left: 10%;
-  overflow: auto;
+  .text-intro {
+    width: 40%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 5px;
+  }
+
+  .bg-pattern-intro-left img {
+    width: 15%;
+  }
+
+  .bg-pattern-intro-left {
+    margin-top: 400px;
+  }
+
+  .bg-pattern-intro-right img {
+    width: 30%;
+  }
+
+  .bg-pattern-intro-right {
+    margin-top: 0;
+  }
+
+  .hr-middle-cointainer {
+    display: inline-block;
+    width: 5%;
+  }
+
+  .columnI, .columnII, .columnIII {
+    float: left;
+    padding-top: 15px;
+    padding-left: 3%;
+    width: 30.3333%;
+  }
+
+  .text-how-we-work h1 {
+    position: relative;
     position: absolute;
-    margin-top: 150px;
-  z-index: 10;
-}
-.footerI, .footerII, .footerIII, .footerIV{
-  float: left;
-  width: 25%;}
-  .footerI a:hover, .footerII a:hover, .footerIII a:hover, .footerIV a:hover {
-    text-decoration:underline;
+    width: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .text-how-we-work {
+    width: 100%;
+    padding-left: 10%;
+    vertical-align: baseline;
+    display: table-cell;
+  }
+
+  .BC {
+    float: right;
+    position: relative;
+    margin-right: 10%;
+    margin-top: -100px;
+  }
+
+  .bg-pattern-how-we-work img {
+    max-width: 50%;
+    height: 100%
+  }
+
+  .bg-pattern-how-we-work {
+    width: 100%;
+  }
+
+  .footer-cointainer {
+    clear: both;
+    position: relative;
+    padding-bottom: 200px;
+    overflow: visible;
+  }
+
+  .logo-footer {
+    position: absolute;
+    top: auto;
+    padding-top: 50px;
+    margin-left: 10%;
+    z-index: 1;
+    width: auto;
+  }
+
+  .bg-pattern-footer img {
+    width: 40%;
+  }
+
+  .i {
+    float: right;
+    width: auto;
+    margin-right: 10%;
+    display: inline-block;
+  }
+
+  .icon {
+    padding-left: 10px;
+  }
+
+  .icon:hover {
+    filter: brightness(50%);
     cursor: auto;
   }
-  .attribution{
+
+  .hr-footer {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 120px;
+    z-index: 1;
+  }
+
+  .footer {
+    width: 80%;
+    margin-left: 10%;
+    overflow: auto;
+    position: absolute;
+    margin-top: 150px;
+    z-index: 10;
+  }
+
+  .footerI, .footerII, .footerIII, .footerIV {
+    float: left;
+    width: 25%;
+  }
+
+  .footerI a:hover, .footerII a:hover, .footerIII a:hover, .footerIV a:hover {
+    text-decoration: underline;
+    cursor: auto;
+  }
+
+  .attribution {
     position: relative;
     display: block;
     text-align: center;
